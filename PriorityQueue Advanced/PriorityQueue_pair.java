@@ -28,3 +28,6 @@ public class MyClass {
         }
     }
 }
+
+//   for more updates  -> https://www.geeksforgeeks.org/priority-queue-of-pair-in-java-with-examples/
+//   watch youtube  -> https://www.youtube.com/watch?v=2kNeNVIdrQY&t=439s
