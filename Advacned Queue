@@ -2,3 +2,27 @@ Queue Advanced Topic and Understanding
 
 10-03-2024
 
+
+Add is used to insert a specified element into the queue. It returns true when the task is successful or else it throws an exception. 
+Offer is used to insert a specified element into the queue. It returns true when the task is successful or else its return false.
+
+import java.util.*;
+public class GFG {
+ 
+    public static void main(String args[])
+    {
+        Queue<String> pq = new PriorityQueue<>();
+        pq.add("Geeks");
+        pq.add("For");
+        pq.add("Geeks");
+        System.out.println(pq); // print queue
+        pq.remove("Geeks"); // remove an item in O(1) time
+        System.out.println(pq.poll()); // return first element of the queue
+        pq.isEmpty(); // return true if queue is empty otherwise false
+        pq.size(); // pq size return
+        System.out.println(pq);
+    }
+}
+
+Insted of add we can also write offer.
+
