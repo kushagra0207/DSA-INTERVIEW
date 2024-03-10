@@ -7,7 +7,7 @@ Add is used to insert a specified element into the queue. It returns true when t
 Offer is used to insert a specified element into the queue. It returns true when the task is successful or else its return false.
 
 import java.util.*;
-public class GFG {
+public class Kushagra {
  
     public static void main(String args[])
     {
